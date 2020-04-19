@@ -56,12 +56,12 @@
     "elasticsearch": ">=10.0.0",
     "eslint": ">=1.0.0",
     "expect.js": ">=0.1.2",
-    "mocha": "3.x.x",
+    "mocha": "4.x.x",
     "mongodb": "2.1.x",
     "redis": ">=0.10.1",
     "tingodb": ">=0.0.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --exit"
   }
 }
